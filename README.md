@@ -5,9 +5,13 @@ EGB is a perceptual evaluation of the image quality.
 
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
+
     2.1. [Dependencies](#dependencies)
+   
     2.2. [Usage Demo](#usage-demo)
+   
     2.3. [More Information on the Provided Files](#more-information-on-the-provided-files)
+   
 3. [Performance Benchmark](#performance-benchmark)
 4. [Citation](#citation)
 5. [Contact](#contact)
@@ -143,5 +147,6 @@ We kindly ask you to reference our paper if you find the repo useful to your res
 
 ## Contact 
 Hammou Dounia , `dhammou@inttic.dz`
+
 Fezza Sid Ahmed , `sfezza@inttic.dz`
 

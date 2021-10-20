@@ -1,6 +1,6 @@
 # EGB: Image Quality Assessment based on Ensemble of Gradient Boosting
 
-EGB is a perceptual evaluation of the image quality.
+EGB is a No-Reference Image Quality Assessment Metric.
 ## Contents
 
 1. [Abstract](#Abstract)

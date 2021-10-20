@@ -3,7 +3,7 @@
 EGB is a perceptual evaluation of the image quality.
 ## Contents
 
-1. [Introduction](#introduction)
+1. [Abstract](#Abstract)
 2. [Getting Started](#getting-started)
 
     2.1. [Dependencies](#dependencies)
@@ -17,7 +17,7 @@ EGB is a perceptual evaluation of the image quality.
 5. [Contact](#contact)
 
  
-## Introduction
+## Abstract
 
 Multimedia services are constantly trying to deliver better image quality to users. To meet this need, they must have an effective and reliable tool to assess the perceptual image quality. This is particularly true for image restoration (IR) algorithms, where the image quality assessment (IQA) metric plays a key role in the development of these latter. For instance, the recent advances in IR algorithms, which are mainly due to the adoption of generative adversarial network (GAN)-based methods, have clearly shown the need for a reliable IQA metric highly correlated with
 human judgment. In this paper, we propose an ensemble of gradient boosting (EGB) metric based on selected features similarity and ensemble learning. First, we analyzed the capability of features extracted by different layers of deep convolutional neural network (CNN) to characterize the perceptual quality distance between the reference and distorted/processed images. We observed that a subset of these layers is more relevant to the IQA task. Accordingly, we exploited these selected layers to compute the features similarity, which are then used as input to a regression network to predict the image quality score. The regression network consists of three gradient boosting regression models that are combined to derive the final quality score. Experiments were performed on the perceptual image processing algorithms (PIPAL) dataset, which has been used in the NTIRE 2021 perceptual image quality assessment challenge.
